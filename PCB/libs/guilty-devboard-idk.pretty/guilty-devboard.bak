@@ -622,24 +622,6 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -13.97 12.7 0)
-				(length 2.54)
-				(name "D1?_idk"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "30"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(embedded_fonts no)
 	)
