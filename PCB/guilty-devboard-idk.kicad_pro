@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -130,22 +130,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_clearance": 0.0762,
+        "min_connection": 0.0762,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.2,
-        "min_microvia_drill": 0.1,
+        "min_hole_clearance": 0.1,
+        "min_hole_to_hole": 0.4,
+        "min_microvia_diameter": 0.01,
+        "min_microvia_drill": 0.01,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_through_hole_diameter": 0.15,
+        "min_track_width": 0.0762,
+        "min_via_annular_width": 0.05,
+        "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -195,7 +195,12 @@
       ],
       "track_widths": [
         0.0,
-        1.82
+        0.0762,
+        0.1,
+        0.1565,
+        0.35,
+        0.75,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -227,6 +232,18 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.25,
+          "drill": 0.15
+        },
+        {
+          "diameter": 0.3,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -258,7 +275,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_not_driven|4610100|1828800|2da0d4a3-d6c5-4073-b108-513cba060e0b|00000000-0000-0000-0000-000000000000|/f655de09-440b-4c8a-8451-7845142cd85d|/f655de09-440b-4c8a-8451-7845142cd85d|",
+        ""
+      ],
+      [
+        "pin_not_driven|4660900|1828800|5fcd9b8e-8214-4909-9f1e-8146cf32acb9|00000000-0000-0000-0000-000000000000|/f655de09-440b-4c8a-8451-7845142cd85d|/f655de09-440b-4c8a-8451-7845142cd85d|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -463,10 +489,10 @@
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
-      "pin_not_connected": "error",
+      "pin_not_connected": "warning",
       "pin_not_driven": "error",
       "pin_to_pin": "error",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "warning",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -494,21 +520,21 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.0762,
+        "diff_pair_gap": 0.1,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.1,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.01,
+        "microvia_drill": 0.01,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.0762,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.25,
+        "via_drill": 0.15,
         "wire_width": 6
       }
     ],
@@ -697,7 +723,7 @@
         "uuid": "f655de09-440b-4c8a-8451-7845142cd85d"
       }
     ],
-    "used_designators": "#PWR13,#PWR16,#PWR20-21,#PWR29,#PWR31,#PWR52-54,U6-7,L3,L8,C10,C23-24",
+    "used_designators": "#PWR35-36,Y1-3",
     "variants": []
   },
   "sheets": [
