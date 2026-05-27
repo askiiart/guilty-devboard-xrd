@@ -7,9 +7,13 @@ A dev board for my keyboard, because all the options kinda suck
 - Fast battery charging (configurable ~50-700mA) and over(dis)charge protection
 - Up to 5V 3A from USB, and 3.3V 1A (including MCU power draw)
 
+![](/assets/pcb-front.png)
+
+![](/assets/pcb-rear.png)
+
 ## Note: DRC errors
 
-DRC shows ~50 clearance errors due to the Xiao Plus footprint having
+DRC shows ~50 clearance errors due to the Xiao Plus footprint having pads at, and past the edge of, the board. That's intentional, ignore those.
 
 ## Schematic
 
