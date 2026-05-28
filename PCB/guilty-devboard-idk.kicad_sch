@@ -6534,6 +6534,16 @@
 		)
 		(uuid "e8a6d692-e2c4-4937-a4fe-e35f4550df40")
 	)
+	(text "useless GND just so \nthere's space for a via there"
+		(exclude_from_sim no)
+		(at 350.774 301.244 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eef8001f-1e5c-41d1-9083-22967a6b9189")
+	)
 	(junction
 		(at 236.22 55.88)
 		(diameter 0)
@@ -7009,6 +7019,16 @@
 			(type default)
 		)
 		(uuid "17d80f0b-2805-45a9-92b0-7c3898df9f22")
+	)
+	(wire
+		(pts
+			(xy 331.47 299.72) (xy 334.01 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1849aba6-02c7-434c-bc7a-2f810f34c138")
 	)
 	(wire
 		(pts
@@ -7629,6 +7649,16 @@
 			(type default)
 		)
 		(uuid "59ae93e1-95c9-4e4a-9453-1d9731c67290")
+	)
+	(wire
+		(pts
+			(xy 331.47 300.99) (xy 331.47 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd27bb5-ba29-4034-8d69-5cd1c3d92376")
 	)
 	(wire
 		(pts
@@ -8279,6 +8309,16 @@
 			(type default)
 		)
 		(uuid "b1474a1b-d71d-47b9-9eb2-9be964362a7b")
+	)
+	(wire
+		(pts
+			(xy 328.93 300.99) (xy 331.47 300.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a0e527-1102-43d6-a6a9-714c51dcd15f")
 	)
 	(wire
 		(pts
@@ -17863,6 +17903,83 @@
 			(project "guilty-devboard-idk"
 				(path "/f655de09-440b-4c8a-8451-7845142cd85d"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad:GND")
+		(at 334.01 299.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f890a1c8-6ad9-447d-80e1-781682fb508c")
+		(property "Reference" "#PWR014"
+			(at 334.01 306.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 334.01 304.038 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 334.01 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 334.01 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11ff9e13-6533-452c-ba47-33011865b8ce")
+		)
+		(instances
+			(project "guilty-devboard-idk"
+				(path "/f655de09-440b-4c8a-8451-7845142cd85d"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
