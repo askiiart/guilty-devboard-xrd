@@ -22,7 +22,7 @@ Use Kicanvas to see the [schematic](https://kicanvas.org/?repo=https%3A%2F%2Fgit
 ## Parts
 
 - [nrf54lm20a](https://www.mouser.com/ProductDetail/Nordic-Semiconductor/nRF54LM20A-PAAA-R)
-- [antenna - 2450AT18A100E](https://www.lcsc.com/product-detail/C89334.html)
+- [antenna - 2450AT18D0100E](https://www.lcsc.com/product-detail/C2917718.html)
 - [low current diodes - TPB4010ESB](https://www.lcsc.com/product-detail/C907849.html)
 - [ferrite beads - BLM15PD121SN1D](https://www.lcsc.com/product-detail/C76891.html)
 - [MOSFETs for battery overcharge/discharge](https://www.lcsc.com/product-detail/C41355091.html)
