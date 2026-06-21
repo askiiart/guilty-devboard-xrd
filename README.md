@@ -29,3 +29,7 @@ Use Kicanvas to see the [schematic](https://kicanvas.org/?repo=https%3A%2F%2Fgit
 - [usb-c](https://www.mouser.com/ProductDetail/Amphenol/124019772112A?qs=OlC7AqGiEDmvQ2B4jeqfyg%3D%3D)
   - specifically this because it has a very small footprint on the board
 - [buck-boost converter (for 3.3V)](https://www.lcsc.com/product-detail/C2071126.html)
+
+## Production notes
+
+The layer stackup should be JLC0616H-3313, and a stencil with electropolishing is recommended.
