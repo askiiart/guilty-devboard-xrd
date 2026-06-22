@@ -6579,12 +6579,6 @@
 		(uuid "27fa696c-90f2-4a09-ac7b-052463c565d4")
 	)
 	(junction
-		(at 313.69 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d7dd7df-8942-4173-8935-d8cb7ac92073")
-	)
-	(junction
 		(at 449.58 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6685,12 +6679,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "838dc9fd-e552-49aa-9669-bc316f8bb17c")
-	)
-	(junction
-		(at 313.69 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86af2749-dfbc-42ef-bafe-f8fab6d09738")
 	)
 	(junction
 		(at 55.88 233.68)
@@ -7780,16 +7768,6 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 43.18) (xy 313.69 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73937d30-8a9e-403a-ae6d-34766cec960d")
-	)
-	(wire
-		(pts
 			(xy 83.82 87.63) (xy 76.2 87.63)
 		)
 		(stroke
@@ -7817,16 +7795,6 @@
 			(type default)
 		)
 		(uuid "74c105ee-4982-4b23-9417-2db5ab3b3e37")
-	)
-	(wire
-		(pts
-			(xy 316.23 33.02) (xy 313.69 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74c7cb08-e4e6-4c25-9821-71b78c33fbe8")
 	)
 	(wire
 		(pts
@@ -11646,6 +11614,16 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 29.718 86.106 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 			)
 		)
