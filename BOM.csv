@@ -32,7 +32,7 @@ MOSFETs,1,10,0.0434,10,htps://www.lcsc.com/product-detail/C41355091.html ,0.434
 SGM40567,1,1,0.53,1,https://www.lcsc.com/product-detail/C5141336.html,0.53
 FH9261-G3JH,1,20,0.0289,20,https://www.lcsc.com/product-detail/C19273258.html,0.578
 BD83070GWL-E2,1,1,0.7198,1,https://www.lcsc.com/product-detail/C2071126.html,0.7198
-32MHz crystal,1,5,0.0837,5,https://www.lcsc.com/product-detail/C2965582.html,0.4185
+32MHz crystal,1,5,1.0134,1,https://www.lcsc.com/product-detail/C5203637.html,1.0134
 32.768kHz crystal,1,1,0.7798,1,https://www.lcsc.com/product-detail/C7425462.html,0.7798
 ,,,,,,
 NRF54LM20A-QGAA-R,1,1,6.7,1,https://mou.sr/44t4RAm,6.7
@@ -44,5 +44,5 @@ JLCPCB shipping,,,,,Roughly,$10.00
 LCSC shipping,,,,,,7.25
 Mouser shipping,,,,,,8.49
 ,,,,,,
-Subtotal,,,,,,58.5061
-Total,,,,,,63.33285325
+Subtotal,,,,,,59.101
+Total,,,,,,63.9768325

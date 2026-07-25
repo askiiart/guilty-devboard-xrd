@@ -9971,7 +9971,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 251.46 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12879,7 +12879,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
+		(property "Footprint" "Crystal:Crystal_SMD_1210-4Pin_1.2x1.0mm"
 			(at 34.29 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -15142,7 +15142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 48.26 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -16781,11 +16781,11 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.55 0.55)
+					(size 0.57 0.57)
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
+		(property "Footprint" "Crystal:Crystal_SMD_1210-4Pin_1.2x1.0mm"
 			(at 34.29 64.77 0)
 			(hide yes)
 			(show_name no)
