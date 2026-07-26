@@ -13,7 +13,7 @@ A dev board for my keyboard, because all the options kinda suck
 
 ## Note: DRC errors
 
-DRC shows ~50 clearance errors due to the Xiao Plus footprint having pads at, and past the edge of, the board. That's intentional, ignore those.
+DRC shows ~50 clearance errors due to the Xiao Plus footprint having pads at and past the edge of the board. That's intentional, ignore those.
 
 ## Schematic
 
