@@ -60,7 +60,7 @@ Use Kicanvas to see the [schematic](https://kicanvas.org/?repo=https%3A%2F%2Fgit
 |32.768kHz crystal             |1              |1  |3.0197|1                |<https://www.lcsc.com/product-detail/C2595065.html>                                                              |3.0197     |
 |                              |               |   |      |                 |                                                                                                               |           |
 |NRF54LM20A-QGAA-R             |1              |1  |6.7   |1                |<https://mou.sr/44t4RAm>                                                                                         |6.7        |
-|Amphenol 124019772112A (USB-C)|1              |1  |2.41  |1                |<https://www.mouser.com/ProductDetail/Amphenol-Commercial-Products/124019772112A> |2.41       |
+|Amphenol 124019772112A (USB-C)|1              |1  |2.41  |1                |<https://www.mouser.com/en/ProductDetail/Amphenol-Commercial-Products/124019772112A?qs=OlC7AqGiEDmvQ2B4jeqfyg%3D%3D> |2.41       |
 |                              |               |   |      |                 |                                                                                                               |           |
 |JLCPCB                        |               |   |      |                 |                                                                                                               |$15.10     |
 |                              |               |   |      |                 |                                                                                                               |           |
