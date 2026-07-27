@@ -1,0 +1,229 @@
+(footprint "TCA9536"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -10.875 -32.85 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6582c24d-b423-47da-a2b0-f69813107af0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TCA9536"
+		(at -10.875 -31.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f7ae3dea-4b5b-4bf9-b45f-37f4d996af2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71b49b2a-dd56-4665-826d-7e0a56ba8ab2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e519ae62-f41a-4f16-9b7b-c6abe455e905")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1fa2ea71-759c-4fc8-9a31-f82d028e8d73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -0.39 0.01)
+		(size 0.05 0.05)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.179134 -0.106194) (xy -0.195355 -0.095355) (xy -0.206194 -0.079134) (xy -0.21 -0.06) (xy -0.21 0.04)
+					(xy -0.206194 0.059134) (xy -0.195355 0.075355) (xy -0.179134 0.086194) (xy -0.16 0.09) (xy 0.06 0.09)
+					(xy 0.11 0.09) (xy 0.21 -0.01) (xy 0.21 -0.06) (xy 0.209039 -0.060961) (xy 0.209039 -0.069755)
+					(xy 0.201573 -0.087779) (xy 0.187779 -0.101573) (xy 0.169755 -0.109039) (xy 0.160961 -0.109039)
+					(xy 0.16 -0.11) (xy 0.11 -0.11) (xy -0.09 -0.11) (xy -0.16 -0.11)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "abc2f222-05b7-41f0-b13b-16007eac8d40")
+	)
+	(pad "3" smd custom
+		(at -0.39 0.99)
+		(size 0.05 0.05)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.179134 0.106194) (xy -0.195355 0.095355) (xy -0.206194 0.079134) (xy -0.21 0.06) (xy -0.21 -0.04)
+					(xy -0.206194 -0.059134) (xy -0.195355 -0.075355) (xy -0.179134 -0.086194) (xy -0.16 -0.09) (xy 0.06 -0.09)
+					(xy 0.11 -0.09) (xy 0.21 0.01) (xy 0.21 0.06) (xy 0.209039 0.060961) (xy 0.209039 0.069755) (xy 0.201573 0.087779)
+					(xy 0.187779 0.101573) (xy 0.169755 0.109039) (xy 0.160961 0.109039) (xy 0.16 0.11) (xy 0.11 0.11)
+					(xy -0.09 0.11) (xy -0.16 0.11)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "a128a6bd-2a1c-4ead-8140-a12055e7964d")
+	)
+	(pad "4" smd roundrect
+		(at 0 0.75 45)
+		(size 0.22 0.22)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2272727273)
+		(uuid "f9a9dfaf-347d-4102-92ff-4a472ff689d5")
+	)
+	(pad "5" smd custom
+		(at 0.39 0.99)
+		(size 0.05 0.05)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.179134 0.106194) (xy 0.195355 0.095355) (xy 0.206194 0.079134) (xy 0.21 0.06) (xy 0.21 -0.04)
+					(xy 0.206194 -0.059134) (xy 0.195355 -0.075355) (xy 0.179134 -0.086194) (xy 0.16 -0.09) (xy -0.06 -0.09)
+					(xy -0.11 -0.09) (xy -0.21 0.01) (xy -0.21 0.06) (xy -0.209039 0.060961) (xy -0.209039 0.069755)
+					(xy -0.201573 0.087779) (xy -0.187779 0.101573) (xy -0.169755 0.109039) (xy -0.160961 0.109039)
+					(xy -0.16 0.11) (xy -0.11 0.11) (xy 0.09 0.11) (xy 0.16 0.11)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "9d2ef250-48af-4f60-883d-4406f02c1795")
+	)
+	(pad "6" smd custom
+		(at -0.41 0.46)
+		(size 0.05 0.05)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.13 -0.1) (xy 0.151 -0.1) (xy 0.23 -0.021) (xy 0.23 0) (xy 0.23 0.021) (xy 0.151 0.1) (xy 0.13 0.1)
+					(xy -0.07 0.1) (xy -0.14 0.1) (xy -0.159134 0.096194) (xy -0.175355 0.085355) (xy -0.186194 0.069134)
+					(xy -0.19 0.05) (xy -0.19 -0.05) (xy -0.186194 -0.069134) (xy -0.175355 -0.085355) (xy -0.159134 -0.096194)
+					(xy -0.14 -0.1) (xy 0.08 -0.1)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "dc69f566-f82e-4c25-aa32-eac497cda3ca")
+	)
+	(pad "6" smd custom
+		(at 0.37 0.46)
+		(size 0.05 0.05)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.13 -0.1) (xy -0.151 -0.1) (xy -0.23 -0.021) (xy -0.23 0) (xy -0.23 0.021) (xy -0.151 0.1)
+					(xy -0.13 0.1) (xy 0.07 0.1) (xy 0.14 0.1) (xy 0.159134 0.096194) (xy 0.175355 0.085355) (xy 0.186194 0.069134)
+					(xy 0.19 0.05) (xy 0.19 -0.05) (xy 0.186194 -0.069134) (xy 0.175355 -0.085355) (xy 0.159134 -0.096194)
+					(xy 0.14 -0.1) (xy -0.08 -0.1)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "ad85006f-b494-4538-aa3a-f8b6ed349090")
+	)
+	(pad "7" smd custom
+		(at 0.39 0.01)
+		(size 0.05 0.05)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.179134 -0.106194) (xy 0.195355 -0.095355) (xy 0.206194 -0.079134) (xy 0.21 -0.06) (xy 0.21 0.04)
+					(xy 0.206194 0.059134) (xy 0.195355 0.075355) (xy 0.179134 0.086194) (xy 0.16 0.09) (xy -0.06 0.09)
+					(xy -0.11 0.09) (xy -0.21 -0.01) (xy -0.21 -0.06) (xy -0.209039 -0.060961) (xy -0.209039 -0.069755)
+					(xy -0.201573 -0.087779) (xy -0.187779 -0.101573) (xy -0.169755 -0.109039) (xy -0.160961 -0.109039)
+					(xy -0.16 -0.11) (xy -0.11 -0.11) (xy 0.09 -0.11) (xy 0.16 -0.11)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "1c7ba63e-514b-4aa9-9b57-02a71c514b5f")
+	)
+	(pad "8" smd roundrect
+		(at 0 0.25 45)
+		(size 0.22 0.22)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2272727273)
+		(uuid "050a2e6b-f405-48b6-9c51-2eabac4f24ba")
+	)
+	(embedded_fonts no)
+)
