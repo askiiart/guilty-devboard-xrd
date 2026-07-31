@@ -499,7 +499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "guilty-devboard-idk:Xiao nRF52840 Plus pads"
+		(property "Footprint" "guilty-devboard-idk:Guilty Devboard Xrd pads"
 			(at 0 -48.768 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1117,7 +1117,7 @@
 			(pin input line
 				(at -15.24 -16.51 0)
 				(length 2.54)
-				(name "D21"
+				(name "D22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1135,7 +1135,7 @@
 			(pin input line
 				(at -15.24 -19.05 0)
 				(length 2.54)
-				(name "D21"
+				(name "D23"
 					(effects
 						(font
 							(size 1.27 1.27)
