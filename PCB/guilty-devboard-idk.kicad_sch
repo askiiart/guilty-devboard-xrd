@@ -5123,6 +5123,226 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "guilty-devboard:TCA9536"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/tca9536"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "4-bit I2C I/O expander, (only X2-SON-8 supported currently)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TCA9536_0_1"
+				(rectangle
+					(start -8.89 7.62)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TCA9536_1_1"
+				(pin input line
+					(at 12.7 3.81 180)
+					(length 2.54)
+					(name "P0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "P3/~{INT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 0 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 2.54 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "V_{CC}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 1.27 180)
+					(length 2.54)
+					(name "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "guilty-devboard:Xiao nRF52840 Plus Connectors (dev)"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -7364,6 +7584,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 298.45) (xy 68.58 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4231bea9-aaff-4959-b8b8-fd697cc1ac79")
+	)
+	(wire
+		(pts
 			(xy 328.93 288.29) (xy 353.06 288.29)
 		)
 		(stroke
@@ -8364,6 +8594,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 295.91) (xy 68.58 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c73659-df7c-4f89-82a8-6b99ca42a6da")
+	)
+	(wire
+		(pts
 			(xy 295.91 133.35) (xy 295.91 123.19)
 		)
 		(stroke
@@ -8973,6 +9213,16 @@
 		)
 		(uuid "38523976-c168-47eb-8c48-c5214d3e64e2")
 	)
+	(label "P1.30_A{slash}D4_I2C_SDA"
+		(at 46.99 295.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ab97afd-1c1c-4464-ba58-07997517ddce")
+	)
 	(label "FAST_CHARGE_1"
 		(at 346.71 251.46 180)
 		(effects
@@ -9363,6 +9613,16 @@
 			(justify left bottom)
 		)
 		(uuid "dd0d2a10-5adb-421c-991d-6d38c7d08084")
+	)
+	(label "P1.31_A{slash}D5_I2C_SCL"
+		(at 46.99 298.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5435bc4-a978-40fd-b833-d369bab5cc16")
 	)
 	(label "P1.30_A{slash}D4_I2C_SDA"
 		(at 350.52 311.15 180)
@@ -16004,6 +16264,105 @@
 		)
 	)
 	(symbol
+		(lib_id "guilty-devboard:TCA9536")
+		(at 80.01 298.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b966cfe3-25dc-49c4-9c5d-e189046dc1f2")
+		(property "Reference" "U4"
+			(at 82.1533 288.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 80.01 298.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tca9536"
+			(at 80.01 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4-bit I2C I/O expander, (only X2-SON-8 supported currently)"
+			(at 80.01 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "29a3df8a-644f-42da-aca1-6a055fa464ae")
+		)
+		(pin "7"
+			(uuid "fff48b37-cbc7-4a2f-9b28-cfa65cb4254a")
+		)
+		(pin "5"
+			(uuid "22e4a1bd-caae-4c26-80da-ad17326ae7a8")
+		)
+		(pin "2"
+			(uuid "c387d532-300a-458a-8bd8-062e9fe4cb2a")
+		)
+		(pin "6"
+			(uuid "148cc2d8-2315-4ef7-9f5f-892d84326281")
+		)
+		(pin "1"
+			(uuid "2355471d-9cfb-4de9-98bf-4982bc0427b6")
+		)
+		(pin "8"
+			(uuid "f3f07ea5-10d4-4ac6-84c4-fb0626e01b00")
+		)
+		(pin "3"
+			(uuid "c4ce7b9a-4c72-4607-8d22-6214d39eb80d")
+		)
+		(instances
+			(project "guilty-devboard-idk"
+				(path "/f655de09-440b-4c8a-8451-7845142cd85d"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KiCad:FerriteBead_Small")
 		(at 92.71 46.99 0)
 		(unit 1)
@@ -16157,6 +16516,83 @@
 			(project "guilty-devboard-idk"
 				(path "/f655de09-440b-4c8a-8451-7845142cd85d"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 80.01 288.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bf8602b5-c411-4888-9276-fc9b3af4f450")
+		(property "Reference" "#PWR048"
+			(at 80.01 292.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 83.312 286.004 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 80.01 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b708811-9236-4737-8347-d88e5516fc64")
+		)
+		(instances
+			(project "guilty-devboard-idk"
+				(path "/f655de09-440b-4c8a-8451-7845142cd85d"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -16469,6 +16905,84 @@
 			(project "guilty-devboard-idk"
 				(path "/f655de09-440b-4c8a-8451-7845142cd85d"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.01 308.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca2aad3d-5e9c-408e-9cc1-cf4415cc6657")
+		(property "Reference" "#PWR014"
+			(at 80.01 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 313.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db163abb-282f-4ffe-b130-eb30db7813e0")
+		)
+		(instances
+			(project "guilty-devboard-idk"
+				(path "/f655de09-440b-4c8a-8451-7845142cd85d"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
