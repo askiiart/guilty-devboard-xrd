@@ -1117,7 +1117,7 @@
 			(pin input line
 				(at -15.24 -16.51 0)
 				(length 2.54)
-				(name "D21"
+				(name "D22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1135,7 +1135,7 @@
 			(pin input line
 				(at -15.24 -19.05 0)
 				(length 2.54)
-				(name "D21"
+				(name "D23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1232,7 +1232,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at 0 1.016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1241,8 +1241,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "TCA9536"
+			(at 0 -1.016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1251,7 +1251,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "guilty-devboard-idk:TCA9536"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -6626,7 +6626,7 @@
 	)
 	(rectangle
 		(start 13.97 214.63)
-		(end 60.96 273.05)
+		(end 60.96 279.4)
 		(stroke
 			(width 0)
 			(type default)
@@ -8250,6 +8250,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 264.16) (xy 31.75 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee25323-6cbf-47ac-ad75-a5853a83e8e1")
+	)
+	(wire
+		(pts
 			(xy 226.06 55.88) (xy 226.06 54.61)
 		)
 		(stroke
@@ -9080,7 +9090,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 264.16) (xy 31.75 264.16)
+			(xy 24.13 264.16) (xy 25.4 264.16)
 		)
 		(stroke
 			(width 0)
@@ -13337,6 +13347,87 @@
 			(project "guilty-devboard-idk"
 				(path "/f655de09-440b-4c8a-8451-7845142cd85d"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad:FerriteBead_Small")
+		(at 27.94 264.16 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5074665b-3911-4a73-bc6a-4016436656d5")
+		(property "Reference" "FB2"
+			(at 28.702 266.192 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 26.67 266.446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
+			(at 27.94 262.382 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 27.94 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5a9393a-19e3-4ef3-9e18-d2a473cff823")
+		)
+		(pin "2"
+			(uuid "8786c04b-2aa6-42d4-ad66-42d89e74d660")
+		)
+		(instances
+			(project "guilty-devboard-idk"
+				(path "/f655de09-440b-4c8a-8451-7845142cd85d"
+					(reference "FB2")
 					(unit 1)
 				)
 			)
