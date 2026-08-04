@@ -1204,24 +1204,6 @@
 					)
 				)
 			)
-			(pin input line
-				(at 12.7 -19.05 180)
-				(length 2.54)
-				(name "D27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "37"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(embedded_fonts no)
 	)
@@ -1232,7 +1214,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at 0 1.016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1241,8 +1223,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "TCA9536"
+			(at 0 -1.016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1251,7 +1233,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "guilty-devboard-idk:TCA9536"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

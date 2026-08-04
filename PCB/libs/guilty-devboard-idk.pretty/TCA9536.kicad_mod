@@ -4,10 +4,10 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -10.875 -32.85 0)
+		(at -3.59 -5.42 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "e8e96b5e-68c7-44d4-b462-048fe06a1867")
+		(uuid "e172ff3b-98e7-4e1e-9164-f8f6f026f85b")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 		)
 	)
 	(property "Value" "TCA9536"
-		(at -10.875 -31.35 0)
+		(at -3.59 -3.92 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "215c4216-277d-4c28-a393-f903e3e0aead")
+		(uuid "36336066-4ddd-438d-9d4e-1194bbf09782")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "582faaa8-0259-41bc-9bbb-74dbe250a570")
+		(uuid "82e0cf6d-575b-48d1-8a33-9415f2072695")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9c6e2512-8392-4608-9f5d-2778fbdd3238")
+		(uuid "90545b84-14cf-4bd3-9562-35f99d4f6d53")
 		(effects
 			(font
 				(size 1 1)
@@ -64,13 +64,13 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "5a5bd0be-4c83-453b-acc9-f31b5075c8c8")
+		(uuid "d13b258a-16cc-4dc7-9c85-5f1329822ee8")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "bb4cf757-cae7-4696-a136-5d657f10b4d1")
+		(uuid "be572ebb-0589-4234-9114-e3a70d56467d")
 		(effects
 			(font
 				(size 1 1)
@@ -100,7 +100,30 @@
 				(fill yes)
 			)
 		)
-		(uuid "c970a25d-db49-4392-9fb6-72d78487d859")
+		(uuid "2d376b3c-dac5-411a-af0c-63d7eba312a5")
+	)
+	(pad "2" smd custom
+		(at -0.41 0.46)
+		(size 0.05 0.05)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.13 -0.1) (xy 0.151 -0.1) (xy 0.23 -0.021) (xy 0.23 0) (xy 0.23 0.021) (xy 0.151 0.1) (xy 0.13 0.1)
+					(xy -0.07 0.1) (xy -0.14 0.1) (xy -0.159134 0.096194) (xy -0.175355 0.085355) (xy -0.186194 0.069134)
+					(xy -0.19 0.05) (xy -0.19 -0.05) (xy -0.186194 -0.069134) (xy -0.175355 -0.085355) (xy -0.159134 -0.096194)
+					(xy -0.14 -0.1) (xy 0.08 -0.1)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "2d4296e1-cfd4-4fcb-85b2-efac03f5b682")
 	)
 	(pad "3" smd custom
 		(at -0.39 0.99)
@@ -124,7 +147,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "733b84f8-dfff-442c-87f9-5edbefe9e7f0")
+		(uuid "9161824d-fea1-48ca-9cc3-d4643634a2e7")
 	)
 	(pad "4" smd roundrect
 		(at 0 0.75 45)
@@ -132,7 +155,7 @@
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2272727273)
-		(uuid "7d0ef52e-402b-4e23-b8b9-dd627a7f6e30")
+		(uuid "a486fc3f-aa59-44f8-b3b6-0859c42b18bb")
 	)
 	(pad "5" smd custom
 		(at 0.39 0.99)
@@ -156,30 +179,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "4624a49b-58e7-4d42-b26a-8b9e5d4c2306")
-	)
-	(pad "6" smd custom
-		(at -0.41 0.46)
-		(size 0.05 0.05)
-		(property pad_prop_bga)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy 0.13 -0.1) (xy 0.151 -0.1) (xy 0.23 -0.021) (xy 0.23 0) (xy 0.23 0.021) (xy 0.151 0.1) (xy 0.13 0.1)
-					(xy -0.07 0.1) (xy -0.14 0.1) (xy -0.159134 0.096194) (xy -0.175355 0.085355) (xy -0.186194 0.069134)
-					(xy -0.19 0.05) (xy -0.19 -0.05) (xy -0.186194 -0.069134) (xy -0.175355 -0.085355) (xy -0.159134 -0.096194)
-					(xy -0.14 -0.1) (xy 0.08 -0.1)
-				)
-				(width 0)
-				(fill yes)
-			)
-		)
-		(uuid "0572801b-bbc4-47a7-b30b-c126c8646e14")
+		(uuid "6ffceb3c-2553-477a-a44f-decc3bdfdca3")
 	)
 	(pad "6" smd custom
 		(at 0.37 0.46)
@@ -202,7 +202,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "671ec444-5f84-4a42-80b9-abec67cdf4f6")
+		(uuid "73673777-faac-4de9-aba5-2f5e5e93eafe")
 	)
 	(pad "7" smd custom
 		(at 0.39 0.01)
@@ -226,7 +226,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "952b5a97-e312-45a2-8181-34dba9253d1a")
+		(uuid "899aa9a1-f37f-494d-959b-7c6022789c8b")
 	)
 	(pad "8" smd roundrect
 		(at 0 0.25 45)
@@ -234,7 +234,7 @@
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2272727273)
-		(uuid "ac1c1c08-4b80-4949-8ed2-8df0c5b70169")
+		(uuid "1d6618a4-a012-4352-9c0a-fe48da165c86")
 	)
 	(embedded_fonts no)
 )

@@ -1,7 +1,7 @@
 Name,Quantity needed,MOQ,Price,Quantity to order,Link,Total
 Diodes,2,20,0.0257,20,https://www.lcsc.com/product-detail/C2912031.html,0.514
 Ferrite bead,1,50,0.025,50,https://www.lcsc.com/product-detail/C525479.html,1.25
-MOSFETs,1,10,0.0434,10,htps://www.lcsc.com/product-detail/C41355091.html ,0.434
+MOSFETs,1,10,0.0434,10,https://www.lcsc.com/product-detail/C41355091.html ,0.434
 100nF cap,5,50,0.0018,50,https://www.lcsc.com/product-detail/C2903664.html,0.09
 4.7uF cap,4,10,0.0733,10,https://www.lcsc.com/product-detail/C335103.html,0.733
 1pF cap,1,100,0.0024,100,https://www.lcsc.com/product-detail/C85894.html,0.24
@@ -15,7 +15,7 @@ MOSFETs,1,10,0.0434,10,htps://www.lcsc.com/product-detail/C41355091.html ,0.434
 1.5uH inductor,1,50,0.0111,50,https://www.lcsc.com/product-detail/C2885839.html,0.555
 4.7nH inductor,1,100,0.0099,100,https://www.lcsc.com/product-detail/C86126.html,0.99
 3.6nH inductor,1,20,0.0322,20,https://www.lcsc.com/product-detail/C237447.html,0.644
-4.7uH inductor,1,10,0.0971,10,https://www.lcsc.com/product-detail/C114862.html,0.971
+4.7uH inductor,1,1,0.2829,1,https://www.lcsc.com/product-detail/C7261423.html,0.2829
 1nH inductor,1,100,0.0029,100,https://www.lcsc.com/product-detail/C46607389.html,0.29
 5.1k resistor,2,100,0.0007,100,https://www.lcsc.com/product-detail/C473460.html,0.07
 470k resistor,1,100,0.0013,100,https://www.lcsc.com/product-detail/C54530578.html,0.13
@@ -45,5 +45,5 @@ LCSC shipping,,,,,,7.25
 Mouser shipping,,,,,,8.49
 Mouser estimated tariffs,,,,,,0.24
 ,,,,,,
-Subtotal,,,,,,69.4589
-Total,,,,,,75.18925925
+Subtotal,,,,,,68.7708
+Total,,,,,,74.444391
