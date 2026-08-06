@@ -13,7 +13,7 @@ A dev board for my keyboard, because all the options kinda suck
 
 ## Note: DRC errors
 
-DRC shows ~50 clearance errors due to the Xiao Plus footprint having pads at and past the edge of the board. That's intentional, ignore those.
+DRC shows ~140 clearance errors due to the Xiao Plus footprint having pads at and past the edge of the board, a couple things in the keep-out zone, and the QR codes overlapping/being too close to other items. That's intentional, ignore those.
 
 ## Schematic
 
@@ -24,7 +24,7 @@ Use Kicanvas to see the [schematic](https://kicanvas.org/?repo=https%3A%2F%2Fgit
 |Name                          |Quantity needed|MOQ|Price |Quantity to order|Link                                                                                                           |Total    |
 |------------------------------|---------------|---|------|-----------------|---------------------------------------------------------------------------------------------------------------|---------|
 |Diodes                        |2              |20 |0.0257|20               |<https://www.lcsc.com/product-detail/C2912031.html>                                                              |0.514    |
-|Ferrite bead                  |2              |50 |0.025 |50               |<https://www.lcsc.com/product-detail/C525479.html>                                                               |1.25     |
+|Ferrite bead                  |1              |50 |0.025 |50               |<https://www.lcsc.com/product-detail/C525479.html>                                                               |1.25     |
 |MOSFETs                       |1              |10 |0.0434|10               |<https://www.lcsc.com/product-detail/C41355091.html>                                                             |0.434    |
 |100nF cap                     |5              |50 |0.0018|50               |<https://www.lcsc.com/product-detail/C2903664.html>                                                              |0.09     |
 |4.7uF cap                     |4              |10 |0.0733|10               |<https://www.lcsc.com/product-detail/C335103.html>                                                               |0.733    |
@@ -59,18 +59,21 @@ Use Kicanvas to see the [schematic](https://kicanvas.org/?repo=https%3A%2F%2Fgit
 |32MHz crystal                 |1              |5  |1.0134|1                |<https://www.lcsc.com/product-detail/C5203637.html>                                                              |1.0134   |
 |32.768kHz crystal             |1              |1  |3.0197|1                |<https://www.lcsc.com/product-detail/C2595065.html>                                                              |3.0197   |
 |                              |               |   |      |                 |                                                                                                               |         |
+|2450AT18D0100001E             |1              |1  |0.57  |1                |<https://www.digikey.com/en/products/detail/johanson-technology-inc/2450AT18D0100001E/4770685>                   |0.57     |
+|                              |               |   |      |                 |                                                                                                               |         |
 |NRF54LM20A-QGAA-R             |1              |1  |6.7   |1                |<https://mou.sr/44t4RAm>                                                                                         |6.7      |
 |Amphenol 124019772112A (USB-C)|1              |1  |2.41  |1                |<https://www.mouser.com/ProductDetail/Amphenol-Commercial-Products/124019772112A?qs=OlC7AqGiEDmvQ2B4jeqfyg%3D%3D>|2.41     |
 |                              |               |   |      |                 |                                                                                                               |         |
 |JLCPCB                        |               |   |      |                 |                                                                                                               |$15.10   |
 |                              |               |   |      |                 |                                                                                                               |         |
 |JLCPCB shipping               |               |   |      |                 |Roughly                                                                                                        |$9.79    |
+|Digikey shipping              |               |   |      |                 |                                                                                                               |$4.99    |
 |LCSC shipping                 |               |   |      |                 |                                                                                                               |7.25     |
 |Mouser shipping               |               |   |      |                 |                                                                                                               |8.49     |
 |Mouser estimated tariffs      |               |   |      |                 |                                                                                                               |0.24     |
 |                              |               |   |      |                 |                                                                                                               |         |
-|Subtotal                      |               |   |      |                 |                                                                                                               |68.7708  |
-|Total                         |               |   |      |                 |                                                                                                               |74.444391|
+|Subtotal                      |               |   |      |                 |                                                                                                               |74.3308  |
+|Total                         |               |   |      |                 |                                                                                                               |80.463091|
 
 ## Production notes
 
