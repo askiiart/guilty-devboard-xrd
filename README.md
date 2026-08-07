@@ -24,7 +24,7 @@ Use Kicanvas to see the [schematic](https://kicanvas.org/?repo=https%3A%2F%2Fgit
 |Name                          |Quantity needed|MOQ|Price |Quantity to order|Link                                                                                                           |Total    |
 |------------------------------|---------------|---|------|-----------------|---------------------------------------------------------------------------------------------------------------|---------|
 |Diodes                        |2              |20 |0.0257|20               |<https://www.lcsc.com/product-detail/C2912031.html>                                                              |0.514    |
-|Ferrite bead                  |1              |50 |0.025 |50               |<https://www.lcsc.com/product-detail/C525479.html>                                                               |1.25     |
+|Ferrite bead                  |2              |50 |0.025 |50               |<https://www.lcsc.com/product-detail/C525479.html>                                                               |1.25     |
 |MOSFETs                       |1              |10 |0.0434|10               |<https://www.lcsc.com/product-detail/C41355091.html>                                                             |0.434    |
 |100nF cap                     |5              |50 |0.0018|50               |<https://www.lcsc.com/product-detail/C2903664.html>                                                              |0.09     |
 |4.7uF cap                     |4              |10 |0.0733|10               |<https://www.lcsc.com/product-detail/C335103.html>                                                               |0.733    |
