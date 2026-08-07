@@ -75,6 +75,10 @@ Use Kicanvas to see the [schematic](https://kicanvas.org/?repo=https%3A%2F%2Fgit
 |Subtotal                      |               |   |      |                 |                                                                                                               |74.3308  |
 |Total                         |               |   |      |                 |                                                                                                               |80.463091|
 
+## Documentation
+
+Docs are available [here](https://askiiart.net/docs/guilty-devboard-xrd.html) ([short link](https://7qq.uk/xrd))
+
 ## Production notes
 
 The layer stackup should be JLC0616H-3313, and a stencil with electropolishing is recommended.
