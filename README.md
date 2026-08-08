@@ -2,14 +2,21 @@
 
 A dev board for my keyboard, because all the options kinda suck
 
-- Same footprint as Xiao Plus
+- Compatible with both XIAO nRF52840 Plus and nRF54LM20A
 - As efficient as possible
 - Fast battery charging (configurable ~50-700mA) and over(dis)charge protection
 - Up to 5V 3A from USB, and 3.3V 1A (including MCU power draw)
+- 27 GPIO pins, nearly as much as the XIAO nRF54LM20A, despite much more limited manufacturing capabilities, while still having an antenna built-in.
+
+See the documentation for more details on what this has over the official XIAOs.
 
 ![](/assets/pcb-front.png)
 
 ![](/assets/pcb-rear.png)
+
+## Documentation
+
+Docs are available [here](https://askiiart.net/docs/guilty-devboard-xrd.html) ([short link](https://7qq.uk/xrd))
 
 ## Note: DRC errors
 
@@ -74,10 +81,6 @@ Use Kicanvas to see the [schematic](https://kicanvas.org/?repo=https%3A%2F%2Fgit
 |                              |               |   |      |                 |                                                                                                               |         |
 |Subtotal                      |               |   |      |                 |                                                                                                               |74.3308  |
 |Total                         |               |   |      |                 |                                                                                                               |80.463091|
-
-## Documentation
-
-Docs are available [here](https://askiiart.net/docs/guilty-devboard-xrd.html) ([short link](https://7qq.uk/xrd))
 
 ## Production notes
 
