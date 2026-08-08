@@ -16,7 +16,7 @@ See the documentation for more details on what this has over the official XIAOs.
 
 ## Documentation
 
-Docs are available [here](https://askiiart.net/docs/guilty-devboard-xrd.html) ([short link](https://7qq.uk/xrd))
+Docs are available [here](https://askiiart.net/docs/guilty-devboard-xrd.html) ([short link](http://7qq.uk/xrd))
 
 ## Note: DRC errors
 
