@@ -10,6 +10,8 @@ A dev board for my keyboard, because all the other options kinda suck(ed)
 
 See the documentation for more details on what this has over the official XIAOs.
 
+![](/assets/schematic.svg)
+
 ![](/assets/pcb-front.png)
 
 ![](/assets/pcb-rear.png)
