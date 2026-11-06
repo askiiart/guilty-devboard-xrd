@@ -6684,6 +6684,17 @@
 		)
 		(uuid "dcedac15-1e13-4122-ad4e-45b57a6feea1")
 	)
+	(text "charging current (typ gpio resistance, 14k)\nsink neither for 51mA\nsink 1 for 262mA\nsink 2 for 488mA\nsink both for 668mA"
+		(exclude_from_sim no)
+		(at 344.932 131.064 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify right)
+		)
+		(uuid "00852b43-364a-4b0c-8565-25d68d7f1ccb")
+	)
 	(text "Reset circuitry\n\nPerhaps unnecessary, \ncan be more basic if need be"
 		(exclude_from_sim no)
 		(at 338.836 23.368 0)
@@ -6728,6 +6739,16 @@
 			(justify left)
 		)
 		(uuid "5de76188-29e8-4947-9aec-1a73150a4320")
+	)
+	(text "SGM40567 is difficult to source\nbut due to pulldown resistance, configurable charging speeds\nisn't viable with FAN54120UC435X"
+		(exclude_from_sim no)
+		(at 296.418 98.298 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "7459d5a7-9943-4d25-bc8a-49244725fbae")
 	)
 	(text "jumper is used instead of a button\nbecause i couldn't find a switch that small"
 		(exclude_from_sim no)
@@ -6814,13 +6835,14 @@
 		)
 		(uuid "c8b5d2f9-27ba-4c4f-a548-d9037fb7ab5a")
 	)
-	(text "sink neither for 51mA\nsink 1 for 160mA\nsink 2 for 400mA\nsink both for 500mA\n"
+	(text "peak charging current (min gpio resistance, 12k)\nsink neither for 51mA\nsink 1 for 265mA\nsink 2 for 504mA\nsink both for 687mA"
 		(exclude_from_sim no)
-		(at 312.928 131.572 0)
+		(at 344.932 142.748 0)
 		(effects
 			(font
-				(size 1.016 1.016)
+				(size 0.762 0.762)
 			)
+			(justify right)
 		)
 		(uuid "e8a6d692-e2c4-4937-a4fe-e35f4550df40")
 	)
@@ -10682,7 +10704,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220k"
+		(property "Value" "100k"
 			(at 297.688 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13109,7 +13131,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68k"
+		(property "Value" "39k"
 			(at 301.498 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
