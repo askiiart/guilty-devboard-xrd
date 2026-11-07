@@ -666,6 +666,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Small_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Small_Bridged"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, small symbol, bridged"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_0_0"
+				(circle
+					(center -1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_0_1"
+				(arc
+					(start -0.762 0.254)
+					(mid 0 0.5696)
+					(end 0.762 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "KiCad:Antenna_Chip"
 			(pin_numbers
 				(hide yes)
@@ -6835,6 +7001,16 @@
 		)
 		(uuid "c8b5d2f9-27ba-4c4f-a548-d9037fb7ab5a")
 	)
+	(text "jumper if SGM40567,\notherwise can use SGM40565\nand adjust IREF"
+		(exclude_from_sim no)
+		(at 281.178 117.094 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "cf61291a-269e-4201-915f-6e7cf5035e7b")
+	)
 	(text "peak charging current (min gpio resistance, 12k)\nsink neither for 51mA\nsink 1 for 265mA\nsink 2 for 504mA\nsink both for 687mA"
 		(exclude_from_sim no)
 		(at 344.932 142.748 0)
@@ -6863,7 +7039,7 @@
 		(uuid "083c0197-b91a-4f4e-a0e1-39fa1ce18a56")
 	)
 	(junction
-		(at 276.86 123.19)
+		(at 273.05 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1597c8cf-2b26-4af8-a7a8-e259d274188b")
@@ -6875,7 +7051,7 @@
 		(uuid "1cfd5b00-cc56-45d8-9269-b48468cce5b1")
 	)
 	(junction
-		(at 276.86 106.68)
+		(at 273.05 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d7478b9-9552-48bd-b9fb-8c387a447765")
@@ -6995,12 +7171,6 @@
 		(uuid "7b7e4d86-3e14-4d68-8308-8e6b3164b957")
 	)
 	(junction
-		(at 276.86 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "838dc9fd-e552-49aa-9669-bc316f8bb17c")
-	)
-	(junction
 		(at 55.88 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7053,6 +7223,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa6ac081-3754-4737-8dae-aeb32007dab7")
+	)
+	(junction
+		(at 289.56 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2390a0e-64de-493d-b1d2-7c2cc3c9804a")
 	)
 	(junction
 		(at 92.71 57.15)
@@ -7132,16 +7308,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 123.19) (xy 292.1 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "021fdb61-a581-4e9d-8347-f7caed4c51a1")
-	)
-	(wire
-		(pts
 			(xy 236.22 52.07) (xy 236.22 55.88)
 		)
 		(stroke
@@ -7189,6 +7355,16 @@
 			(type default)
 		)
 		(uuid "0451d9fb-642f-4663-8276-70205cdb2aed")
+	)
+	(wire
+		(pts
+			(xy 289.56 111.76) (xy 289.56 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "056b84e4-90a7-44b3-887b-43889961efa1")
 	)
 	(wire
 		(pts
@@ -7242,6 +7418,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 114.3) (xy 273.05 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09992b25-0a61-4792-b26c-c85b0dcf160f")
+	)
+	(wire
+		(pts
 			(xy 236.22 55.88) (xy 236.22 59.69)
 		)
 		(stroke
@@ -7259,6 +7445,16 @@
 			(type default)
 		)
 		(uuid "0ec6e971-9334-4356-b47b-3d7d9dacbc67")
+	)
+	(wire
+		(pts
+			(xy 273.05 106.68) (xy 292.1 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10052215-b581-476e-b130-e035330a3cd6")
 	)
 	(wire
 		(pts
@@ -7352,6 +7548,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 123.19) (xy 292.1 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18403877-fe94-443e-b707-aa92cb1198e8")
+	)
+	(wire
+		(pts
 			(xy 273.05 59.69) (xy 264.16 59.69)
 		)
 		(stroke
@@ -7359,6 +7565,16 @@
 			(type default)
 		)
 		(uuid "18b19dd7-cc48-4e32-9914-4b7a4cf9044e")
+	)
+	(wire
+		(pts
+			(xy 273.05 123.19) (xy 289.56 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f7c10a-dcbb-47c9-86c8-45c2f5faba24")
 	)
 	(wire
 		(pts
@@ -7569,16 +7785,6 @@
 			(type default)
 		)
 		(uuid "2cadc52a-bce4-4558-af6f-38330f1fdc43")
-	)
-	(wire
-		(pts
-			(xy 292.1 111.76) (xy 299.72 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f3dc478-d52e-44d2-9423-369831aea919")
 	)
 	(wire
 		(pts
@@ -8032,6 +8238,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 111.76) (xy 299.72 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d15f29d-1aec-44c9-ac6e-62ead68f1297")
+	)
+	(wire
+		(pts
 			(xy 76.2 49.53) (xy 92.71 49.53)
 		)
 		(stroke
@@ -8409,16 +8625,6 @@
 			(type default)
 		)
 		(uuid "917188a1-cd65-4dc7-88a5-7043628e165e")
-	)
-	(wire
-		(pts
-			(xy 276.86 106.68) (xy 292.1 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91810075-db9c-4b61-9d00-9bcc908c3d9c")
 	)
 	(wire
 		(pts
@@ -8922,16 +9128,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 114.3) (xy 292.1 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4b7f833-9b39-4e82-b82e-7ee726da6498")
-	)
-	(wire
-		(pts
 			(xy 299.72 137.16) (xy 299.72 123.19)
 		)
 		(stroke
@@ -9242,16 +9438,6 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 111.76) (xy 292.1 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efac9b61-7a2f-4875-a6db-8cf29365cce6")
-	)
-	(wire
-		(pts
 			(xy 146.05 243.84) (xy 148.59 243.84)
 		)
 		(stroke
@@ -9319,16 +9505,6 @@
 			(type default)
 		)
 		(uuid "fab2601b-16f6-4821-8877-afb8f808c412")
-	)
-	(wire
-		(pts
-			(xy 276.86 114.3) (xy 276.86 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fab500c6-5cc0-4ea0-98bc-9313adf090cb")
 	)
 	(wire
 		(pts
@@ -12957,7 +13133,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 276.86 123.19 0)
+		(at 273.05 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12967,7 +13143,7 @@
 		(dnp no)
 		(uuid "4ac16a4e-3d3f-4874-bb13-2148bdca1c94")
 		(property "Reference" "#PWR030"
-			(at 276.86 129.54 0)
+			(at 273.05 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12978,7 +13154,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 276.86 127.508 0)
+			(at 273.05 127.508 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12988,7 +13164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 123.19 0)
+			(at 273.05 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12999,7 +13175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 123.19 0)
+			(at 273.05 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13010,7 +13186,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 276.86 123.19 0)
+			(at 273.05 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14736,7 +14912,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 276.86 110.49 0)
+		(at 273.05 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14746,7 +14922,7 @@
 		(dnp no)
 		(uuid "759548f0-bd24-438a-b342-ce2093be7187")
 		(property "Reference" "C17"
-			(at 279.654 109.22 0)
+			(at 275.844 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14757,7 +14933,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 279.654 111.76 0)
+			(at 275.844 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14768,7 +14944,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 277.8252 114.3 0)
+			(at 274.0152 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14779,7 +14955,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 110.49 0)
+			(at 273.05 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14790,7 +14966,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 276.86 110.49 0)
+			(at 273.05 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15531,7 +15707,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 276.86 106.68 0)
+		(at 273.05 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15541,7 +15717,7 @@
 		(dnp no)
 		(uuid "8f3451ee-b79c-4b0c-9cee-01a07d1b10f4")
 		(property "Reference" "#PWR023"
-			(at 276.86 110.49 0)
+			(at 273.05 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15552,7 +15728,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 276.86 102.87 0)
+			(at 273.05 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15562,7 +15738,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 106.68 0)
+			(at 273.05 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15573,7 +15749,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 106.68 0)
+			(at 273.05 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15584,7 +15760,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 276.86 106.68 0)
+			(at 273.05 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17054,6 +17230,86 @@
 			(project "guilty-devboard-idk"
 				(path "/f655de09-440b-4c8a-8451-7845142cd85d"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 289.56 120.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bffaf9c4-cc95-477a-aa20-7d5d73b1e2a0")
+		(property "Reference" "JP2"
+			(at 287.782 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 287.02 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 289.56 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 289.56 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3ceb3588-8dec-4864-9792-f7a084a61d16")
+		)
+		(pin "1"
+			(uuid "d4f928b7-93cc-42a8-b8fe-032021f6f347")
+		)
+		(instances
+			(project "guilty-devboard-idk"
+				(path "/f655de09-440b-4c8a-8451-7845142cd85d"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
