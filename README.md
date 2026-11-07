@@ -86,6 +86,6 @@ Use Kicanvas to see the [schematic](https://kicanvas.org/?repo=https%3A%2F%2Fgit
 
 ## Notes
 
-- The layer stackup should be JLC0616H-3313, and a stencil with electropolishing is recommended.
+- The layer stackup should be JLC0616H-3313A, and a stencil with electropolishing is recommended.
 - The choice of USB-C connector is odd due to space requirements. If you can find a USB-C connector with the same footprint or smaller - at least in depth - then *please* tell me.
 - Kicad, [marbastlib](https://github.com/ebastler/marbastlib), and [nordic-lib-kicad](https://github.com/hlord2000/nordic-lib-kicad) are required for this project.
